@@ -1,0 +1,24 @@
+{
+  "format_version":2,
+  "header":{
+    "name":"Sample BehaviorPack",
+    "description":"Sample [Behavior]",
+    "uuid":"f392a369-d341-4692-b087-6e377b99d93a",
+    "version":[1,0,0],
+    "min_engine_version":[1,20,30]
+  },
+  "modules":[
+    {
+      "type":"script",
+      "language":"javascript",
+      "description":"ScriptAPI",
+      "version":[1,0,0],
+      "uuid":"55a3b070-e15a-4dc8-87e2-70ce24f45bba",
+      "entry":"scripts/main.js"
+    }
+  ],
+  "dependencies":[
+    {"module_name":"@minecraft/server","version":"1.7.0-beta"},
+    {"module_name":"@minecraft/server-ui","version":"1.2.0-beta"}
+  ]
+}
